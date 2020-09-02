@@ -10,7 +10,7 @@ function generateReadMe(response) {
   const email = response.email;
   const githubUserName = response.githubUserName;
 
-  let badgeLink = null;
+  let badgeLink = "No licenses at this time";
 
   if (license === "Apache") {
     badgeLink ="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";

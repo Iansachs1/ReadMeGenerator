@@ -2,7 +2,7 @@
 
   ## Description
   
-This application is a command line application that is designed to easily generate a professional readMe file for a project on github. I generated the readMe for the readMeGenerator application by using the readMeGenerator application. You may notice some similarities between the provided readMe and the sample readMe to demonstrate the ReadMeGenerator's ability to generate readMes...
+This application is a command line application that is designed to easily generate a professional readMe file for a project on github. 
   
 ## Table of Contents
   

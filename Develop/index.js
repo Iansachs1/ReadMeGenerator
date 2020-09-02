@@ -62,7 +62,7 @@ inquirer
         return generateReadMe(response);
     })
     .then(function (innerReadMe) {
-        return thenableWriteFile("./testReadMe.md", innerReadMe)
+        return thenableWriteFile("./../GeneratedReadMe.md", innerReadMe);
     })
     .then(function () {
         console.log("readMe Generated!");
