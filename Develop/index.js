@@ -32,26 +32,30 @@ inquirer
             name: "usage",
             message: "What is this project used for? provide information on how to use it"
         },
-
-        //need to add more information
+        
         {
             name: "license",
-            message: "provide licensing information"
+            message: "Type any of the following to license your project: Apache, Boost, BSD3, BSD2, MIT, Mozilla"
         },
-
+        
         {
             name: "contributing",
             message: "How can someone contribute to this project"
         },
-
+        
         {
             name: "tests",
-            message: "What testing was done on this project?"
+            message: "What testing was done on this project? How can someone test this project themselves?"
         },
-
+        
         {
-            name: "questions",
+            name: "email",
             message: "Enter your email so people can reach out if they have questions on your project."
+        },
+        
+        {
+            name: "githubUserName",
+            message: "Enter your github username so people can reach out if they have questions on your project. and to help with licensing."
         },
     ])
     .then(function (response) {
