@@ -1,8 +1,8 @@
-# ReadMe Generator
+# Employee Tracker
 
   ## Description
   
-This application is a command line application that is designed to easily generate a professional readMe file for a project on github. 
+This is the description of my project
   
 ## Table of Contents
   
@@ -22,11 +22,11 @@ This application is a command line application that is designed to easily genera
   
 ## Installation
   
-clone the repository, navigate to the develop file in the repo using your terminal, and run npm install
+clone the repository from github, navigate to the repository in your terminal, run "npm install" to install needed dependancies, copy the info from the .sql file and paste into mysql workbench, run node "app.js"
   
 ## Usage
   
-once the application is cloned and depenendancies are installed usinf npm install run it in the same location you installed it using node index.js and answer the prompts to fill in the content of your readMe
+this application is used to track and manage all departments, roles, and employees in a company to keep information organized in tables
   
 ## Licenses
   
@@ -34,16 +34,16 @@ No licenses at this time
   
 ## Contributing
   
-Contact me using the contact info in the question section.
+send me a message using the contact me info below if you would like to contribute
   
 ## Tests
   
-upoin the addition of each new functional piece of this program, i ran multiple tests in termila to see how the program would behave. First I made sure inquirer was working using a simple inquirer prompt, then I put in all the prompts I thought I would need, then I tested to see if the program would insert the prompt responses into the text of a readMe template, last i tested to ensure that all licensing options properly generated the correct corresponding badge.
+each function was tested individually with a variety of inputs before being added to the finished application
   
 ## Questions
 
 If you have any questions, please reach out to me through email or via github:
 
-iansachs1@gmail.com
+
 
 https://github.com/iansachs1
